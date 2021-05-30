@@ -9,6 +9,8 @@ import numpy as np
 from spoco.cluster import cluster_ms, cluster_hdbscan, cluster_consistency
 from spoco.utils import SUPPORTED_DATASETS
 
+
+
 parser = argparse.ArgumentParser(description='Embedding clustering')
 parser.add_argument('--ds-name', type=str, default='cvppp', choices=SUPPORTED_DATASETS,
                     help=f'Name of the dataset from: {SUPPORTED_DATASETS}')
